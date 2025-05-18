@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/7dcc6733-1cf5-4be3-80d6-59e100c97785/resourceGroups/rg-henritzi-dev/providers/Microsoft.Web/sites/wa-henritzi-dev",
-    "appService.deploySubpath": "build"
-}
