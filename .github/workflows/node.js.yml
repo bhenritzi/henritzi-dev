@@ -26,7 +26,7 @@ jobs:
       uses: actions/upload-pages-artifact@v3.0.1
       with:
         name: github-pages
-        path: /build
+        path: build
         retention-days: 3
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v4.0.5
