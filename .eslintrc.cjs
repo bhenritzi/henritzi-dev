@@ -38,7 +38,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off', // Disable this rule if you prefer implicit return types
     'react/react-in-jsx-scope': 'off', // Disable if using React 17+ (new JSX transform)
     'react/prop-types': 'off', // Disable prop-types as TypeScript provides static type checking
-    // ... more custom rules
   },
   ignorePatterns: [
     'dist', // Ignore the build output directory
