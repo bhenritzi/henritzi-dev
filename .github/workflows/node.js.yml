@@ -27,6 +27,8 @@ jobs:
     - run: npm ci
     - run: npm run build
     - run: npm test --if-present
+    - name: Copy 404.html to build folder
+      run: cp ./404.html ./build
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v3.0.1
       with:
